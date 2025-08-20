@@ -1,112 +1,231 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yek Salai - App Ads Configuration</title>
+    <title>Banishwor Athokpam | Mobile Apps</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
     <style>
-        * { margin: 0; padding: 0; box-sizing: border-box; }
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            background: linear-gradient(135deg, #33808d, #2c6e7a);
-            color: white;
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
+            font-family: 'Inter', sans-serif;
+            background-color: #f9fafb; /* Light background (gray-50) */
+            color: #1f2937; /* Dark text (gray-800) */
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #2563eb, #7c3aed);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .card {
+            background-color: #ffffff; /* White card background */
+            border: 1px solid #e5e7eb; /* gray-200 */
+            border-radius: 1rem;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.1), 0 4px 6px -2px rgba(37, 99, 235, 0.05);
+        }
+        .btn {
+            display: inline-flex;
             align-items: center;
-            text-align: center;
-            padding: 20px;
-        }
-        .container {
-            max-width: 600px;
-            background: rgba(255, 255, 255, 0.1);
-            backdrop-filter: blur(10px);
-            border-radius: 20px;
-            padding: 40px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-        }
-        h1 {
-            font-size: 2.5rem;
-            margin-bottom: 20px;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-        .subtitle {
-            font-size: 1.2rem;
-            margin-bottom: 30px;
-            opacity: 0.9;
-        }
-        .ads-info {
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 10px;
-            padding: 20px;
-            margin: 20px 0;
-            border-left: 4px solid #fff;
-        }
-        .ads-info h3 {
-            margin-bottom: 15px;
-            color: #ffd700;
-        }
-        .file-link {
-            display: inline-block;
-            background: rgba(255, 255, 255, 0.2);
-            padding: 12px 24px;
-            border-radius: 50px;
-            text-decoration: none;
-            color: white;
-            font-weight: bold;
-            margin: 10px;
+            justify-content: center;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            font-weight: 600;
             transition: all 0.3s ease;
-            border: 2px solid rgba(255, 255, 255, 0.3);
+            text-decoration: none;
         }
-        .file-link:hover {
-            background: rgba(255, 255, 255, 0.3);
-            transform: translateY(-2px);
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+        .btn-primary {
+            background-color: #2563eb; /* blue-600 */
+            color: #ffffff;
         }
-        .footer {
-            margin-top: 30px;
-            font-size: 0.9rem;
-            opacity: 0.7;
+        .btn-primary:hover {
+            background-color: #3b82f6; /* blue-500 */
         }
-        .cultural-note {
-            background: rgba(255, 215, 0, 0.2);
-            border: 1px solid rgba(255, 215, 0, 0.5);
-            border-radius: 10px;
-            padding: 15px;
-            margin: 20px 0;
-            font-style: italic;
+        .btn-secondary {
+            background-color: transparent;
+            border: 1px solid #2563eb; /* blue-600 */
+            color: #2563eb; /* blue-600 */
         }
-        .icon {
-            font-size: 3rem;
-            margin-bottom: 20px;
-            display: block;
+        .btn-secondary:hover {
+            background-color: #2563eb; /* blue-600 */
+            color: #ffffff;
+        }
+        /* Animation for scroll */
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+        }
+        .reveal.is-visible {
+            opacity: 1;
+            transform: translateY(0);
         }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="icon">🏛️</div>
-        <h1>Yek Salai Heritage App</h1>
-        <p class="subtitle">App-ads.txt Configuration for Meitei Cultural Preservation</p>
-        
-        <div class="ads-info">
-            <h3>📱 Advertising Configuration</h3>
-            <p>This file ensures proper ad attribution and prevents fraud in our cultural heritage mobile application.</p>
-        </div>
 
-        <div class="cultural-note">
-            <p>🌟 Revenue from advertisements supports the preservation and digital archiving of Meitei cultural heritage, including traditional marriage customs, clan histories, and surname genealogies.</p>
+    <!-- Header -->
+    <header class="bg-white/80 backdrop-blur-sm sticky top-0 z-50 border-b border-gray-200">
+        <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
+            <a href="#" class="text-xl font-bold gradient-text">Banishwor Athokpam</a>
+            <div class="hidden md:flex items-center space-x-8">
+                <a href="#manipur-calculator" class="text-gray-600 hover:text-blue-600 transition">Manipur Calculator</a>
+                <a href="#yek-salai" class="text-gray-600 hover:text-blue-600 transition">Yek Salai</a>
+                <a href="/app-ads.txt" class="text-gray-600 hover:text-blue-600 transition text-sm">app-ads.txt</a>
+            </div>
+            <!-- Mobile Menu Button -->
+            <div class="md:hidden">
+                <button id="menu-btn" class="text-gray-700 focus:outline-none">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path></svg>
+                </button>
+            </div>
+        </nav>
+        <!-- Mobile Menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
+            <a href="#manipur-calculator" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Manipur Calculator</a>
+            <a href="#yek-salai" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Yek Salai</a>
+            <a href="/app-ads.txt" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">app-ads.txt</a>
         </div>
+    </header>
 
-        <a href="./app-ads.txt" class="file-link">📄 View app-ads.txt</a>
-        <a href="https://play.google.com/store/apps/details?id=com.yeksalaiapp" class="file-link">📱 Download App</a>
+    <!-- Main Content -->
+    <main class="container mx-auto px-6 py-12 md:py-20">
 
-        <div class="footer">
-            <p>© 2025 Yek Salai Cultural Preservation Project</p>
-            <p>Supporting Traditional Meitei Heritage Through Technology</p>
+        <!-- Hero Section -->
+        <section class="text-center mb-20">
+            <h1 class="text-4xl md:text-6xl font-bold mb-4">Apps for Manipur</h1>
+            <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
+                Crafting modern, user-friendly mobile applications that bridge cultural heritage and everyday utility for the Meitei community.
+            </p>
+        </section>
+
+        <!-- Manipur Calculator Section -->
+        <section id="manipur-calculator" class="mb-24 scroll-mt-20">
+            <div class="flex flex-col lg:flex-row items-center gap-12">
+                <!-- App Info -->
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <div class="flex items-center justify-center lg:justify-start gap-4 mb-4">
+                        <img src="https://placehold.co/80x80/e0f2fe/0c4a6e?text=MC" alt="Manipur Calculator Icon" class="rounded-2xl shadow-md">
+                        <h2 class="text-3xl md:text-4xl font-bold">Manipur Calculator</h2>
+                    </div>
+                    <p class="text-lg text-gray-600 mb-6">
+                        A comprehensive tool combining traditional Manipuri land and gold units with modern financial calculators, built for precision and ease of use.
+                    </p>
+                    <div class="flex gap-4 justify-center lg:justify-start">
+                        <a href="https://play.google.com/store/apps/details?id=com.manipurcalculator.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 2a2.478 2.478 0 0 1 2.477 2.477v15.046A2.478 2.478 0 0 1 17.523 22H6.477A2.478 2.478 0 0 1 4 19.523V4.477A2.478 2.478 0 0 1 6.477 2h11.046ZM12 20.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-5-15h10V4H7v1.5Z"/></svg>
+                            Get it on Google Play
+                        </a>
+                    </div>
+                </div>
+                <!-- App Screenshot -->
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="card p-2.5 max-w-xs">
+                        <img src="https://placehold.co/350x700/ffffff/1f2937?text=App+Screenshot" alt="Manipur Calculator Screenshot" class="rounded-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/350x700/ffffff/1f2937?text=App+Screenshot';">
+                    </div>
+                </div>
+            </div>
+            <!-- Features -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Land Unit Converter</h3><p class="text-gray-600">Precisely convert between Pari, Lourak, Sangam, and other traditional Manipuri land units.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Gold Weight Converter</h3><p class="text-gray-600">Easily convert Tola, San, Chaning, and more, based on standard Indian gold weights.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Financial Calculators</h3><p class="text-gray-600">Calculate Loan EMIs (Gold/Car) and Simple/Compound Interest with flexible options.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Modern & Precise</h3><p class="text-gray-600">Built with Kotlin & Jetpack Compose using BigDecimal for error-free calculations.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Fully Offline</h3><p class="text-gray-600">All features work perfectly without any internet connection, ensuring reliability.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Persistent History</h3><p class="text-gray-600">Saves your calculation history locally using a Room database for easy reference.</p></div>
+            </div>
+        </section>
+
+        <!-- Yek Salai Section -->
+        <section id="yek-salai" class="scroll-mt-20">
+            <div class="flex flex-col lg:flex-row-reverse items-center gap-12">
+                <!-- App Info -->
+                <div class="lg:w-1/2 text-center lg:text-left">
+                    <div class="flex items-center justify-center lg:justify-start gap-4 mb-4">
+                         <img src="https://placehold.co/80x80/ede9fe/5b21b6?text=YS" alt="Yek Salai Icon" class="rounded-2xl shadow-md">
+                        <h2 class="text-3xl md:text-4xl font-bold">Yek Salai</h2>
+                    </div>
+                    <p class="text-lg text-gray-600 mb-6">
+                        A digital guide to Meitei cultural heritage, preserving the traditional clan system and marriage customs for future generations.
+                    </p>
+                    <div class="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start">
+                        <a href="https://play.google.com/store/apps/details?id=com.yeksalaiapp" target="_blank" rel="noopener noreferrer" class="btn btn-primary">
+                             <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 2a2.478 2.478 0 0 1 2.477 2.477v15.046A2.478 2.478 0 0 1 17.523 22H6.477A2.478 2.478 0 0 1 4 19.523V4.477A2.478 2.478 0 0 1 6.477 2h11.046ZM12 20.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-5-15h10V4H7v1.5Z"/></svg>
+                            Get it on Google Play
+                        </a>
+                        <a href="#" class="btn btn-secondary">
+                            <svg class="w-5 h-5 mr-2" fill="currentColor" viewBox="0 0 24 24"><path d="M17.5 1A5.5 5.5 0 0 0 12 6.5a5.5 5.5 0 0 0 1.25 3.37L4 18.5v2.5h2.5l8.63-9.25A5.5 5.5 0 1 0 17.5 1ZM6.5 20l7-7.5L15 14l-7.5 7H6.5v-1Z"/></svg>
+                            Download on App Store
+                        </a>
+                    </div>
+                </div>
+                <!-- App Screenshot -->
+                <div class="lg:w-1/2 flex justify-center">
+                    <div class="card p-2.5 max-w-xs">
+                        <img src="https://placehold.co/350x700/ffffff/1f2937?text=App+Screenshot" alt="Yek Salai Screenshot" class="rounded-lg w-full" onerror="this.onerror=null;this.src='https://placehold.co/350x700/ffffff/1f2937?text=App+Screenshot';">
+                    </div>
+                </div>
+            </div>
+             <!-- Features -->
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mt-16">
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Clan Identification</h3><p class="text-gray-600">Instantly find which of the 7 sacred clans a surname belongs to from a database of 860+.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Marriage Compatibility</h3><p class="text-gray-600">Check traditional marriage rules like Yek Tinnaba and Shairuk Tinnaba instantly.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Cultural Education</h3><p class="text-gray-600">An interactive FAQ section to learn about Meitei customs, history, and traditions.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Community Driven</h3><p class="text-gray-600">Users can suggest corrections, ensuring the data remains accurate and up-to-date.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Cross-Platform</h3><p class="text-gray-600">Built with React Native for a seamless experience on both Android and iOS devices.</p></div>
+                <div class="card p-6 reveal"><h3 class="text-xl font-semibold mb-2 gradient-text">Always Updated</h3><p class="text-gray-600">Data is managed via a web panel and synced instantly using Firebase Remote Config.</p></div>
+            </div>
+        </section>
+
+    </main>
+    
+    <!-- Footer -->
+    <footer class="border-t border-gray-200 mt-20">
+        <div class="container mx-auto px-6 py-8 text-center text-gray-500">
+            <p>&copy; 2024 Banishwor Athokpam. All Rights Reserved.</p>
+            <p class="mt-2 text-sm">A passionate developer dedicated to creating meaningful apps for the community.</p>
         </div>
-    </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // Close mobile menu when a link is clicked
+        const mobileMenuLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileMenuLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        }
+
+        // Scroll-reveal animation
+        const revealElements = document.querySelectorAll('.reveal');
+        const revealObserver = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('is-visible');
+                    // Optional: unobserve after revealing to save resources
+                    // revealObserver.unobserve(entry.target); 
+                }
+            });
+        }, {
+            threshold: 0.1 // Trigger when 10% of the element is visible
+        });
+
+        revealElements.forEach(el => {
+            revealObserver.observe(el);
+        });
+    </script>
+
 </body>
 </html>
