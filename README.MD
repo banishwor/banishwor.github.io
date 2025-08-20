@@ -1,43 +1,56 @@
-# 🏛️ Yek Salai Heritage App - Advertisement Configuration
+Banishwor Athokpam's Mobile App Projects
+Welcome! This repository serves as the official developer hub for my mobile applications. It hosts the crucial app-ads.txt file and provides information for my portfolio, which includes Manipur Calculator and Yek Salai.
 
-[![App Status](https://img.shields.io/badge/status-published-success)](https://play.google.com/store/apps/details?id=com.yeksalaiapp)
-[![AdMob](https://img.shields.io/badge/AdMob-verified-blue)](https://admob.google.com)
-[![Cultural Heritage](https://img.shields.io/badge/mission-cultural%20preservation-gold)](https://github.com/banishwor/yek-salai-app-ads)
+📱 About The Apps
+This project supports my portfolio of mobile applications, which are designed with a specific focus on providing modern utility while preserving the unique cultural heritage of the Meitei community in Manipur.
 
-## 📱 About Yek Salai Heritage App
+Manipur Calculator
+A comprehensive and specialized tool for the Manipur region, built to bridge the gap between traditional measurements and modern financial needs.
 
-**Yek Salai** is a mobile application dedicated to preserving and sharing traditional **Meitei cultural heritage**, specifically focusing on:
+Core Functionality: Combines a modern calculator with specialized converters for traditional Manipuri land units (Pari, Lourak, etc.) and Indian gold weight units (Tola, San, etc.).
 
-- 🏛️ **Traditional Marriage Compatibility** - Based on the seven sacred clans (Yek)
-- 📚 **Surname and Clan Database** - Comprehensive database of 860+ Meitei surnames
-- 🌐 **Cultural Education** - Learning about traditional customs and practices
-- 👥 **Community Corrections** - Crowdsourced accuracy improvements from cultural experts
+Financial Tools: Includes robust calculators for Loan EMIs and both simple and compound interest.
 
-### 🎯 Cultural Mission
-Revenue generated through app advertisements directly supports the **digital preservation of Meitei cultural knowledge**, ensuring these traditions are accessible to future generations while respecting their sacred nature.
+Target Audience: An essential tool for real estate professionals, jewelers, and anyone in the region dealing with local measurement systems.
 
-## 📄 What is app-ads.txt?
+Yek Salai
+A digital guide and cultural preservation tool designed to make ancestral Meitei knowledge accessible to the new generation.
 
-**App-ads.txt** is an industry-standard file that:
-- ✅ **Prevents ad fraud** by declaring authorized ad sellers
-- ✅ **Improves ad revenue** through increased advertiser trust  
-- ✅ **Ensures transparency** in digital advertising ecosystem
-- ✅ **Complies with IAB standards** for mobile app monetization
+Core Functionality: Provides a complete database of Meitei surnames to identify clan lineage and instantly checks marriage compatibility based on sacred traditional rules.
 
-Learn more: [IAB Tech Lab - App-ads.txt](https://iabtechlab.com/ads-txt/)
+Cultural Education: Serves as a digital repository for customs, history, and traditions, helping to educate and preserve Meitei heritage.
 
-## 🌐 Live Configuration
+Target Audience: Invaluable for members of the Meitei community, cultural researchers, and younger generations looking to connect with their roots.
 
-### 📍 **Primary URL:**
-https://banishwor.github.io/yek-salai-app-ads/app-ads.txt
+📄 app-ads.txt Information
+This repository hosts the Authorized Digital Sellers (app-ads.txt) file for all my applications. This is a critical industry standard that helps prevent ad fraud and ensures that the revenue from ads shown in my apps is correctly attributed.
 
-### 🎨 **Landing Page:**
-https://banishwor.github.io/yek-salai-app-ads/
+File Content
+The app-ads.txt file is located in the root of this repository and contains the following authorized ad sources:
 
-## 📁 Repository Structure
+# app-ads.txt for all apps by Banishwor Athokpam
+# Covers: Manipur Calculator, Yek Salai, and any future apps.
+# Last Updated: 2025-08-20
+# Contact: banishwor@hotmail.com
 
-yek-salai-app-ads/
-├── README.md # This documentation
-├── app-ads.txt # AdMob authorization file
-├── index.html # Professional landing page
-└── .gitignore # Git ignore rules
+# Google AdMob - Primary Ad Network
+google.com, pub-2126541360640458, DIRECT, f08c47fec0942fa0
+
+# Additional Networks (Uncomment and add your IDs when you expand)
+# facebook.com, XXXXXXXXXX, DIRECT, c3e20eee3f780d68
+# unity.com, XXXXXXXXXX, DIRECT, 96cabb5fbdde37a7
+
+How It Works
+One File for All Apps: This single, centralized app-ads.txt file serves all applications published under my developer account. This is the standard and most efficient practice.
+
+Store Listing Link: In the Google Play Store, the "Developer Website" field for each of my apps points directly to the URL of this GitHub Pages site.
+
+Automated Verification: Ad networks like Google AdMob are programmed to automatically crawl the linked developer website. They look for the app-ads.txt file, read its contents, and verify that my publisher ID (pub-2126541360640458) is officially authorized to sell ad inventory in my apps. This process confirms the legitimacy of the ad requests.
+
+🎯 Purpose of This Repository
+The primary goal of this repository is to provide a stable, public, and easily accessible location for the app-ads.txt file. Using GitHub Pages ensures a reliable, cost-free solution that meets the requirements of all major ad networks for publisher verification.
+
+📬 Contact & Feedback
+Your feedback is highly valued! For any questions, suggestions, bug reports, or inquiries related to the apps or this repository, please feel free to reach out.
+
+Email: banishwor@hotmail.com
