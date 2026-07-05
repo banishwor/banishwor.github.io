@@ -74,3 +74,10 @@ google.com, pub-2126541360640458, DIRECT, f08c47fec0942fa0
 # Additional Networks (Uncomment and add your IDs when you expand)
 # facebook.com, XXXXXXXXXX, DIRECT, c3e20eee3f780d68
 # unity.com, XXXXXXXXXX, DIRECT, 96cabb5fbdde37a7
+
+---
+
+## ❤️ Supporting the Projects
+
+If you have found these applications helpful, please check out the [Wall of Gratitude](https://banishwor.github.io/Wall-of-Gratitude/) listing the wonderful people who have supported my development work financially or by contributing cultural data!
+
