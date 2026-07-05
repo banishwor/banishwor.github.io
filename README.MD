@@ -1,6 +1,6 @@
 # Banishwor Athokpam's Mobile App Projects
 
-Welcome! This repository serves as the official developer hub for my mobile applications. It hosts the crucial `app-ads.txt` file and provides information about my portfolio, which includes **Manipur Calculator**, **Yek Salai**, **Manipur Calendar 2026**, and **Viral Prompts**.
+Welcome! This repository serves as the official developer hub for my mobile applications. It hosts the crucial `app-ads.txt` file and provides information about my portfolio, which includes **Manipur Calculator**, **Yek Salai**, **Manipuri Calendar (Android & PWA)**, and **Viral Prompts**.
 
 ---
 
@@ -31,9 +31,13 @@ A digital guide and cultural preservation tool designed to make ancestral Meitei
 * **Cultural Education**: Serves as a digital repository for customs, history, and traditions, helping to educate and preserve Meitei heritage.  
 * **Target Audience**: Invaluable for members of the Meitei community, cultural researchers, and younger generations seeking to connect with their roots.  
 
-#### Manipur Calendar 2026
-The most comprehensive and culturally authentic calendar app designed specifically for the Manipuri community.
+#### Manipuri Calendar (Android & PWA)
+The most comprehensive and culturally authentic calendar app designed specifically for the Manipuri community. Available as a native Android application and a Progressive Web App (PWA).
 
+* **Acquisition Options**:
+  * **Android App**: Get it on [Google Play Store](https://play.google.com/store/apps/details?id=com.manipurcalendar).
+  * **PWA (Android)**: Run and install directly via the [Android Web PWA](https://banishwor.github.io/manipuri-calendar-pwa/?install=auto).
+  * **PWA (iOS/Safari)**: Access the [iOS Web PWA](https://banishwor.github.io/manipuri-calendar-pwa/) and follow Safari's 'Add to Home Screen' instructions.
 * **Core Functionality**: Features a dual calendar system (traditional Manipuri with Meitei Mayek and Gregorian), detailed information on 200+ festivals, moon phase indicators, and daily horoscopes based on Manipuri astrology.  
 * **Cultural Education**: Serves as a digital companion for planning traditional ceremonies, tracking festivals, and staying connected to Manipuri culture.  
 * **Target Audience**: Manipuri families, students learning about the culture, community leaders, and anyone interested in Manipuri heritage.  

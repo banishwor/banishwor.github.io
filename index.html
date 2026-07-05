@@ -76,7 +76,7 @@
             <div class="hidden md:flex items-center space-x-8">
                 <a href="#manipur-calculator" class="text-gray-600 hover:text-blue-600 transition">Manipur Calculator</a>
                 <a href="#yek-salai" class="text-gray-600 hover:text-blue-600 transition">Yek Salai</a>
-                <a href="#manipur-calendar" class="text-gray-600 hover:text-blue-600 transition">Manipur Calendar</a>
+                <a href="#manipuri-calendar" class="text-gray-600 hover:text-blue-600 transition">Manipuri Calendar</a>
                 <a href="#viral-prompts" class="text-gray-600 hover:text-blue-600 transition">Viral Prompts</a>
                 <a href="/app-ads.txt" class="text-gray-600 hover:text-blue-600 transition text-sm">app-ads.txt</a>
             </div>
@@ -91,7 +91,7 @@
         <div id="mobile-menu" class="hidden md:hidden bg-white border-t border-gray-200">
             <a href="#manipur-calculator" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Manipur Calculator</a>
             <a href="#yek-salai" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Yek Salai</a>
-            <a href="#manipur-calendar" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Manipur Calendar</a>
+            <a href="#manipuri-calendar" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Manipuri Calendar</a>
             <a href="#viral-prompts" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">Viral Prompts</a>
             <a href="/app-ads.txt" class="block py-2 px-6 text-sm text-gray-600 hover:bg-gray-100">app-ads.txt</a>
         </div>
@@ -186,20 +186,34 @@
             </div>
         </section>
 
-        <!-- Manipur Calendar Section -->
-        <section id="manipur-calendar" class="mb-24 scroll-mt-20">
+        <!-- Manipuri Calendar Section -->
+        <section id="manipuri-calendar" class="mb-24 scroll-mt-20">
             <div class="flex flex-col lg:flex-row items-center gap-12">
                 <!-- App Info -->
                 <div class="lg:w-1/2 text-center lg:text-left">
                     <div class="flex items-center justify-center lg:justify-start gap-4 mb-4">
-                        <img src="assets/manipur_calendar_icon.png" alt="Manipur Calendar Icon" class="rounded-2xl shadow-md w-20 h-20">
-                        <h2 class="text-3xl md:text-4xl font-bold">Manipur Calendar 2026</h2>
+                        <img src="assets/manipur_calendar_icon.png" alt="Manipuri Calendar Icon" class="rounded-2xl shadow-md w-20 h-20">
+                        <h2 class="text-3xl md:text-4xl font-bold">Manipuri Calendar</h2>
                     </div>
                     <p class="text-lg text-gray-600 mb-6">
                        Your complete Manipuri cultural companion. Discover the rich heritage of Manipur with the most comprehensive and culturally authentic calendar app for the Manipuri community.
                     </p>
-                    <div class="flex gap-4 justify-center lg:justify-start">
-                         <a href="#" class="btn btn-primary opacity-50 cursor-not-allowed">Coming Soon</a>
+                    <div class="flex flex-col sm:flex-row gap-3 justify-center lg:justify-start">
+                        <!-- Play Store Button -->
+                        <a href="https://play.google.com/store/apps/details?id=com.manipurcalendar" target="_blank" rel="noopener noreferrer" class="btn btn-primary text-sm px-4 py-2.5">
+                            <svg class="w-5 h-5 mr-2 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.523 2a2.478 2.478 0 0 1 2.477 2.477v15.046A2.478 2.478 0 0 1 17.523 22H6.477A2.478 2.478 0 0 1 4 19.523V4.477A2.478 2.478 0 0 1 6.477 2h11.046ZM12 20.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3Zm-5-15h10V4H7v1.5Z"/></svg>
+                            Get Android App
+                        </a>
+                        <!-- Android PWA Button -->
+                        <a href="https://banishwor.github.io/manipuri-calendar-pwa/?install=auto" target="_blank" rel="noopener noreferrer" class="btn btn-secondary text-sm px-4 py-2.5">
+                            <svg class="w-5 h-5 mr-2 shrink-0" fill="none" stroke="currentColor" stroke-width="2.5" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4"/></svg>
+                            PWA for Android
+                        </a>
+                        <!-- iOS PWA Button -->
+                        <button id="open-ios-pwa-btn" class="btn btn-secondary text-sm px-4 py-2.5 cursor-pointer">
+                            <svg class="w-5 h-5 mr-2 shrink-0" fill="currentColor" viewBox="0 0 24 24"><path d="M17.05 20.28c-.98.95-2.05.88-3.08.4-1.09-.5-2.08-.48-3.24 0-1.44.62-2.2.44-3.06-.4C4.79 17.25 4.34 11.23 6.94 7.64c1.3-1.8 3.12-1.92 4.19-1.92 1.34 0 2.22.61 2.87.61.64 0 1.95-.77 3.53-.61 1.63.16 2.86.85 3.51 1.83-3.26 1.96-2.73 6.13-.01 7.23-1.02 2.5-2.27 4.19-3.93 5.5m-3.48-15c-.2-2.6 1.9-4.7 4.2-4.9.3 2.9-2.2 5.1-4.2 4.9"/></svg>
+                            PWA for iOS
+                        </button>
                     </div>
                 </div>
                 <!-- App Screenshot -->
@@ -272,6 +286,41 @@
         </div>
     </footer>
 
+    <!-- iOS PWA Install Modal -->
+    <div id="ios-modal" class="fixed inset-0 bg-black/60 backdrop-blur-sm z-[9999] hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl p-6 max-w-sm w-full shadow-2xl relative border border-gray-100">
+            <button id="close-ios-modal" class="absolute top-4 right-4 text-gray-400 hover:text-gray-600 focus:outline-none cursor-pointer">
+                <svg class="w-6 h-6" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"></path></svg>
+            </button>
+            <div class="text-center">
+                <div class="flex justify-center mb-4">
+                    <img src="assets/manipur_calendar_icon.png" alt="Manipuri Calendar Icon" class="rounded-2xl shadow-md w-16 h-16">
+                </div>
+                <h3 class="text-xl font-bold text-gray-800 mb-2">Install on iOS / Safari</h3>
+                <p class="text-sm text-gray-600 mb-6">
+                    Apple iOS Safari requires manual installation to add this app to your Home Screen.
+                </p>
+                <div class="text-left space-y-4 mb-6">
+                    <div class="flex items-start gap-3">
+                        <div class="flex items-center justify-center w-6 h-6 rounded-full bg-blue-100 text-blue-600 text-sm font-semibold shrink-0">1</div>
+                        <p class="text-sm text-gray-700">Open in <strong class="text-gray-900">Safari</strong> and tap the <strong class="text-gray-900">Share</strong> icon (square with up arrow) in the toolbar.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="flex items-center justify-center w-6 h-6 rounded-full bg-blue-100 text-blue-600 text-sm font-semibold shrink-0">2</div>
+                        <p class="text-sm text-gray-700">Scroll down and select <strong class="text-gray-900">Add to Home Screen</strong> from the list.</p>
+                    </div>
+                    <div class="flex items-start gap-3">
+                        <div class="flex items-center justify-center w-6 h-6 rounded-full bg-blue-100 text-blue-600 text-sm font-semibold shrink-0">3</div>
+                        <p class="text-sm text-gray-700">Tap <strong class="text-gray-900">Add</strong> in the top right corner to finish installing.</p>
+                    </div>
+                </div>
+                <a href="https://banishwor.github.io/manipuri-calendar-pwa/" target="_blank" rel="noopener noreferrer" id="go-to-ios-pwa" class="btn btn-primary w-full text-center py-3 justify-center">
+                    Proceed to Calendar PWA
+                </a>
+            </div>
+        </div>
+    </div>
+
     <script>
         // Mobile menu toggle
         const menuBtn = document.getElementById('menu-btn');
@@ -304,6 +353,32 @@
 
         revealElements.forEach(el => {
             revealObserver.observe(el);
+        });
+
+        // iOS PWA Install Modal logic
+        const iosModal = document.getElementById('ios-modal');
+        const openIosBtn = document.getElementById('open-ios-pwa-btn');
+        const closeIosBtn = document.getElementById('close-ios-modal');
+        const goToIosPwa = document.getElementById('go-to-ios-pwa');
+
+        openIosBtn.addEventListener('click', (e) => {
+            e.preventDefault();
+            iosModal.classList.remove('hidden');
+        });
+
+        closeIosBtn.addEventListener('click', () => {
+            iosModal.classList.add('hidden');
+        });
+
+        goToIosPwa.addEventListener('click', () => {
+            iosModal.classList.add('hidden');
+        });
+
+        // Close modal when clicking outside of it
+        iosModal.addEventListener('click', (e) => {
+            if (e.target === iosModal) {
+                iosModal.classList.add('hidden');
+            }
         });
     </script>
 
