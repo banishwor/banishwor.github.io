@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://banishwor.github.io/sitemap.xml
+llms-txt: https://banishwor.github.io/llms.txt

@@ -1,6 +1,6 @@
 # Banishwor Athokpam's Mobile App Projects
 
-Welcome! This repository serves as the official developer hub for my mobile applications. It hosts the crucial `app-ads.txt` file and provides information about my portfolio, which includes **Manipur Calculator**, **Yek Salai**, **Manipuri Calendar (Android & PWA)**, and **Viral Prompts**.
+Welcome! This repository serves as the official developer hub for my mobile applications. It hosts the crucial `app-ads.txt` file and provides information about my portfolio, which includes active applications like **Manipur Calculator**, **Yek Salai**, **Manipuri Calendar (Android & PWA)**, and **Khutsuman**, as well as experimental and archived projects like **LeikaiFix**, **On-Device AI Keyboard**, and **Viral Prompts**.
 
 ---
 
@@ -8,8 +8,8 @@ Welcome! This repository serves as the official developer hub for my mobile appl
 
 This project supports my portfolio of mobile applications. My work is divided into two primary categories:  
 
-1. **Manipur-Focused Apps** – Tools designed to preserve and modernize Manipuri cultural heritage.  
-2. **Creative & Utility Apps** – Tools that inspire creativity and solve everyday problems for a global audience.  
+1. **Active Apps (Manipur Heritage & Utility)** – Tools designed to preserve and modernize Manipuri cultural heritage and daily utility.  
+2. **Archived & Experimental Projects** – Technical explorations in civic tech, on-device machine learning, and creative tools.  
 
 ---
 
@@ -42,18 +42,41 @@ The most comprehensive and culturally authentic calendar app designed specifical
 * **Cultural Education**: Serves as a digital companion for planning traditional ceremonies, tracking festivals, and staying connected to Manipuri culture.  
 * **Target Audience**: Manipuri families, students learning about the culture, community leaders, and anyone interested in Manipuri heritage.  
 
+#### Khutsuman (ꯈꯨꯠꯁꯨꯃꯟ)
+A modern, dispute-free digital Hisab ledger designed specifically for site supervisors, petty contractors (*Mohoriks*), carpenters, and daily wage construction workers.
+
+* **Status**: Currently in Beta • Coming soon to Google Play.
+* **Core Functionality**: Replaces fragile physical notebooks (*Khata*) with transparent, 100% offline daily attendance tracking (Present, Half-Day, Overtime, Absent), duplicate prevention, multi-site job organization, and instant net profit tracking.
+* **Dispute-Free Settlements**: Itemized worker statements calculating gross earnings, advances, and balance due with instant recalculation, plus WhatsApp-ready vector PDF report exports.
+* **Target Audience**: Construction supervisors, small contractors, tradesmen, and daily wage workers across Manipur and India.
+* **Technical Stack**: Kotlin, Jetpack Compose, Material Design 3, MVVM Architecture, and 100% offline encrypted Room Database.
+
 ---
 
-### Creative & Utility Apps
+### Archived & Experimental Projects
+ 
+These projects represent technical prototypes, open-source R&D, and discontinued utilities:
 
-These apps are designed for creativity, productivity, and inspiration for a global audience.  
+#### LeikaiFix (Civic Tech Prototype • Paused)
+A community-driven civic accountability tool designed to empower citizens in Manipur to report localized infrastructure breakdowns.
 
-#### Viral Prompts
-An idea-generation powerhouse designed to unleash creativity for artists, writers, and content creators worldwide.
+* **Core Functionality**: Public photo upload and GPS geotagging for civic issues (potholes, water supply, electric line hazards), automatically mapped to the responsible MLA constituency.  
+* **Civic Transparency**: Included analytics on the *Most Neglected Constituencies* and a civic accountability leaderboard.  
+* **Status**: Prototype paused due to regulatory, administrative, and legal considerations.  
 
-* **Core Functionality**: Delivers an endless stream of high-quality, viral-worthy prompts for AI art generators (Midjourney, DALL·E), content creation, and creative writing.  
-* **Creative Tools**: Helps users overcome creative blocks with features like daily inspiration, easy copy-and-paste, and the ability to save favorite prompts.  
-* **Target Audience**: AI artists, social media managers, bloggers, writers, and anyone in need of creative inspiration.  
+#### On-Device AI Keyboard (Edge AI R&D • Archived)
+An intelligent, privacy-preserving Android software keyboard customized from the open-source **FlorisBoard**.
+
+* **Core Functionality**: Integrated a compact offline language model directly on the Android device for real-time paraphrasing, grammar correction, and tone adjustment without cloud servers.  
+* **Privacy-First**: 100% on-device local execution; zero keystrokes or text snippets ever leave the handset.  
+* **Status & Findings**: Operated smoothly on high-tier flagship processors, but high inference latency and memory requirements degraded typing response on budget target devices. Archived pending mobile NPU improvements.  
+
+#### Viral Prompts (Discontinued • Sunset)
+An idea-generation prompt curation tool for AI art (Midjourney, DALL·E, Gemini), social content, and creative writing.
+
+* **Core Functionality**: Delivered categorized prompts and creative inspiration starters.  
+* **Status**: Sunset and archived due to the operational overhead of daily manual curation.  
+
 
 ---
 
@@ -74,6 +97,12 @@ google.com, pub-2126541360640458, DIRECT, f08c47fec0942fa0
 # Additional Networks (Uncomment and add your IDs when you expand)
 # facebook.com, XXXXXXXXXX, DIRECT, c3e20eee3f780d68
 # unity.com, XXXXXXXXXX, DIRECT, 96cabb5fbdde37a7
+
+---
+
+## 👨‍💻 Developer Profile
+
+For my background, biography, and projects outside of app development, please visit my [Full Developer Profile](https://banishwor.github.io/aboutme).
 
 ---
 

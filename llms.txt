@@ -1,0 +1,25 @@
+# Banishwor Athokpam - Mobile Applications & Developer Hub
+
+> Official developer portfolio and application registry for Banishwor Athokpam, a mobile and edge systems software engineer specializing in Android (Kotlin, Jetpack Compose), Progressive Web Apps (React, TypeScript), and regional cultural heritage technology for Manipur, India.
+
+## Core Applications
+
+- [Manipur Calculator](https://banishwor.github.io/#manipur-calculator): A specialized utility combining modern financial calculators (Loan EMI, Simple/Compound Interest) with traditional Manipuri land unit converters (Pari, Lourak, Sangam) and Indian gold weight converters (Tola, San, Chaning). Built with Kotlin, Jetpack Compose, BigDecimal, and 100% offline Room database.
+- [Yek Salai](https://banishwor.github.io/#yek-salai): Cultural preservation mobile app for the Meitei community in Manipur. Provides a comprehensive database of 860+ surnames across the 7 sacred clans (Salais) and instant marriage compatibility verification based on sacred customary laws (Yek Tinnaba, Shairuk Tinnaba). Built with React Native and Firebase Remote Config.
+- [Manipuri Calendar](https://banishwor.github.io/#manipuri-calendar): Comprehensive dual-calendar system featuring the traditional Meitei lunar calendar (with Meitei Mayek script) alongside Gregorian dates, 200+ Manipuri festivals, moon phases, daily horoscopes, and customizable Android home screen widgets. Available as a native Android app and as an installable Progressive Web App (PWA). 100% free and ad-free.
+  - PWA Link: https://banishwor.github.io/manipuri-calendar-pwa/
+  - Android App: https://play.google.com/store/apps/details?id=com.manipurcalendar
+- [Khutsuman (ꯈꯨꯠꯁꯨꯃꯟ)](https://banishwor.github.io/#khutsuman): Daily wage, attendance, and Hisab ledger manager engineered for site supervisors, petty contractors (Mohoriks), and construction workers in Manipur and across India. 100% offline with encrypted Room database, multi-site job organization, instant wage balance calculation, and WhatsApp-ready vector PDF report exports. Currently in Beta.
+
+## R&D & Archived Prototypes
+
+- [LeikaiFix](https://banishwor.github.io/#leikaifix): Civic tech infrastructure reporting prototype enabling citizens to report local breakdowns with automated GPS spatial mapping to the concerned MLA constituency in Manipur. Development paused due to legal and regulatory considerations.
+- [On-Device AI Keyboard](https://banishwor.github.io/#ai-keyboard): Privacy-preserving Android software keyboard customized from open-source FlorisBoard, executing lightweight local language models on-device for offline paraphrasing and grammar correction. Archived due to inference hardware constraints on budget mobile chipsets.
+- [Viral Prompts](https://banishwor.github.io/#viral-prompts): Creative prompt curation tool for AI art generators (Midjourney, DALL-E, Gemini). Sunset due to daily curation operational overhead.
+
+## Developer Links & Community
+
+- Developer Profile & Non-App Projects: https://banishwor.github.io/aboutme
+- GitHub Profile: https://github.com/banishwor
+- Wall of Gratitude (Contributors & Supporters): https://banishwor.github.io/Wall-of-Gratitude/
+- Authorized Digital Sellers (app-ads.txt): https://banishwor.github.io/app-ads.txt
