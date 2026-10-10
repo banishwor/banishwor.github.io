@@ -1,5 +1,40 @@
+# robots.txt for Banishwor Athokpam - Developer Hub & Portfolio
+# Website: https://banishwor.github.io/
+
 User-agent: *
 Allow: /
 
+# Explicit Search Engine & AI Crawlers Permissions
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Applebot
+Allow: /
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: CCBot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+# Master Sitemap
 Sitemap: https://banishwor.github.io/sitemap.xml
+
+# LLM Context Discovery Links (https://llmstxt.org/)
 llms-txt: https://banishwor.github.io/llms.txt
+llms-full: https://banishwor.github.io/llms-full.txt

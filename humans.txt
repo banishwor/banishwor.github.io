@@ -1,0 +1,35 @@
+/* TEAM */
+  Developer & Creator: Banishwor Athokpam (Bani)
+  Role: Software Engineer, Mobile & Edge Systems Architect, Published Author
+  Location: Thoubal, Manipur, India (ꯀꯪꯂꯩꯄꯥꯛ)
+  Contact: banishwor@outlook.com
+  Website: https://banishwor.github.io/
+  Portfolio OS: https://banishwor.github.io/aboutme/
+  GitHub: https://github.com/banishwor
+  LinkedIn: https://www.linkedin.com/in/banishwor/
+  Facebook: https://www.facebook.com/banishwor
+  Instagram: https://www.instagram.com/banishwor_ath/
+  Twitter / X: https://x.com/banishwor
+  Blog: https://baniat.blogspot.com/
+
+/* APPS & CREATIONS */
+  Active Applications:
+    - Manipur Calculator (Android / Kotlin & Jetpack Compose)
+    - Yek Salai (React Native / Meitei Clan Lineage)
+    - Manipuri Calendar (Android & React PWA / 200+ Festivals & Lunar Engine)
+    - Khutsuman (ꯈꯨꯠꯁꯨꯃꯟ) (Offline Room DB / Daily Wage & Hisab Ledger)
+  Published Literature:
+    - The Echoes of Silence: Book I — The Silence Between Heartbeats
+    - Pushback: How Breakups Can Lead to Personal Growth and Development
+
+/* THANKS */
+  Mentors & Faculty: Manipur University (MCA Department - 7th State Position)
+  Community: The people of Thoubal and the Kangleipak cultural preservationists
+  Open Source: Android Open Source Project, React, Kotlin, Tailwind, and Vite communities
+  Supporters: Generous contributors featured on the Wall of Gratitude
+
+/* SITE */
+  Standards: HTML5, CSS3, ECMAScript 2024, Schema.org JSON-LD, Unicode 5.2 (Meitei Mayek)
+  Tech Stack: Vanilla Modern HTML/CSS/JS, Tailwind CSS, Canvas Confetti
+  BANI // OS Stack: React 18, TypeScript, GSAP 3.12, Web Audio API
+  Hosting: GitHub Pages

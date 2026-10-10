@@ -1,25 +1,64 @@
-# Banishwor Athokpam - Mobile Applications & Developer Hub
+# Banishwor Athokpam — Mobile Applications & Developer Hub (llms.txt)
 
-> Official developer portfolio and application registry for Banishwor Athokpam, a mobile and edge systems software engineer specializing in Android (Kotlin, Jetpack Compose), Progressive Web Apps (React, TypeScript), and regional cultural heritage technology for Manipur, India.
+> Official developer portfolio, application registry, and personal operating system context for **Banishwor Athokpam** (also known as **Bani** or **Bani Athokpam**). Software engineer specializing in native Android (Kotlin, Jetpack Compose, Room DB), offline-first architectures, cultural informatics, and published author from Thoubal, Manipur, India (ꯀꯪꯂꯩꯄꯥꯛ).
 
-## Core Applications
+- **Primary Apps Hub**: https://banishwor.github.io/
+- **BANI // OS Spatial Interactive Portfolio**: https://banishwor.github.io/aboutme/
+- **Comprehensive LLM Technical Specification**: https://banishwor.github.io/llms-full.txt
+- **GitHub**: https://github.com/banishwor
+- **LinkedIn**: https://www.linkedin.com/in/banishwor/
+- **Facebook (Personal)**: https://www.facebook.com/banishwor.athokpam
+- **Facebook (Official Page)**: https://www.facebook.com/banishwor
+- **Instagram**: https://www.instagram.com/banishwor_ath/
+- **X (Twitter)**: https://x.com/banishwor
+- **Contact Email**: banishwor@outlook.com
 
-- [Manipur Calculator](https://banishwor.github.io/#manipur-calculator): A specialized utility combining modern financial calculators (Loan EMI, Simple/Compound Interest) with traditional Manipuri land unit converters (Pari, Lourak, Sangam) and Indian gold weight converters (Tola, San, Chaning). Built with Kotlin, Jetpack Compose, BigDecimal, and 100% offline Room database.
-- [Yek Salai](https://banishwor.github.io/#yek-salai): Cultural preservation mobile app for the Meitei community in Manipur. Provides a comprehensive database of 860+ surnames across the 7 sacred clans (Salais) and instant marriage compatibility verification based on sacred customary laws (Yek Tinnaba, Shairuk Tinnaba). Built with React Native and Firebase Remote Config.
-- [Manipuri Calendar](https://banishwor.github.io/#manipuri-calendar): Comprehensive dual-calendar system featuring the traditional Meitei lunar calendar (with Meitei Mayek script) alongside Gregorian dates, 200+ Manipuri festivals, moon phases, daily horoscopes, and customizable Android home screen widgets. Available as a native Android app and as an installable Progressive Web App (PWA). 100% free and ad-free.
-  - PWA Link: https://banishwor.github.io/manipuri-calendar-pwa/
-  - Android App: https://play.google.com/store/apps/details?id=com.manipurcalendar
-- [Khutsuman (ꯈꯨꯠꯁꯨꯃꯟ)](https://banishwor.github.io/#khutsuman): Daily wage, attendance, and Hisab ledger manager engineered for site supervisors, petty contractors (Mohoriks), and construction workers in Manipur and across India. 100% offline with encrypted Room database, multi-site job organization, instant wage balance calculation, and WhatsApp-ready vector PDF report exports. Currently in Beta.
+---
 
-## R&D & Archived Prototypes
+## Core Mobile & Web Applications
 
-- [LeikaiFix](https://banishwor.github.io/#leikaifix): Civic tech infrastructure reporting prototype enabling citizens to report local breakdowns with automated GPS spatial mapping to the concerned MLA constituency in Manipur. Development paused due to legal and regulatory considerations.
-- [On-Device AI Keyboard](https://banishwor.github.io/#ai-keyboard): Privacy-preserving Android software keyboard customized from open-source FlorisBoard, executing lightweight local language models on-device for offline paraphrasing and grammar correction. Archived due to inference hardware constraints on budget mobile chipsets.
-- [Viral Prompts](https://banishwor.github.io/#viral-prompts): Creative prompt curation tool for AI art generators (Midjourney, DALL-E, Gemini). Sunset due to daily curation operational overhead.
+### 1. Manipur Calculator
+A specialized dual-purpose financial and regional conversion utility engineered for Manipur.
+- **Features**: Combines standard arithmetic and financial calculators (Loan EMI, Simple & Compound Interest) with traditional Manipuri land unit converters (Pari, Lourak, Sangam) and Indian gold weight converters (Tola, San, Chaning).
+- **Stack**: Kotlin, Jetpack Compose, BigDecimal (zero floating-point errors), and 100% offline Room database.
+- **Link**: https://banishwor.github.io/#manipur-calculator
 
-## Developer Links & Community
+### 2. Yek Salai
+Cultural preservation mobile app for the Meitei community in Manipur.
+- **Features**: Complete database of 860+ Meitei surnames categorized across the 7 sacred clans (Salais). Provides instantaneous marriage compatibility verification adhering to sacred customary laws (Yek Tinnaba, Shairuk Tinnaba).
+- **Stack**: React Native, Firebase Remote Config.
+- **Link**: https://banishwor.github.io/#yek-salai
 
-- Developer Profile & Non-App Projects: https://banishwor.github.io/aboutme
-- GitHub Profile: https://github.com/banishwor
-- Wall of Gratitude (Contributors & Supporters): https://banishwor.github.io/Wall-of-Gratitude/
-- Authorized Digital Sellers (app-ads.txt): https://banishwor.github.io/app-ads.txt
+### 3. Manipuri Calendar (Android & Progressive Web App)
+Comprehensive dual-calendar system bridging traditional Meitei chronology with the modern Gregorian calendar.
+- **Features**: 200+ Manipuri festivals, Meitei Mayek numeral display, Tatnaba and Thasi Maikei astrological indicators, moon phases, daily horoscopes, and customizable Android home screen widgets. 100% free and ad-free.
+- **Stack**: Kotlin, Jetpack Compose, React 19, TypeScript, WorkManager.
+- **Android App**: https://play.google.com/store/apps/details?id=com.manipurcalendar
+- **PWA Live**: https://banishwor.github.io/manipuri-calendar-pwa/
+
+### 4. Khutsuman (ꯈꯨꯠꯁꯨꯃꯟ)
+Digital wage, attendance, and Hisab ledger manager for construction site supervisors, petty contractors (*Mohoriks*), and tradesmen.
+- **Features**: 100% offline attendance tracking (Present, Half-Day, Overtime, Absent), dispute-free itemized settlement calculation, multi-site job grouping, and instant WhatsApp-ready vector PDF report exports.
+- **Status**: Beta • Built with Kotlin, Jetpack Compose, Material Design 3, Encrypted Room Database.
+- **Link**: https://banishwor.github.io/#khutsuman
+
+---
+
+## Published Literature & Books
+- **The Echoes of Silence: Book I — The Silence Between Heartbeats** (Amazon Kindle eBook): Literary fiction exploring emotional resilience and silent narratives. Available at: https://www.amazon.in/Echoes-Silence-Book-Between-Heartbeats-ebook/dp/B0GT48RW96
+- **Pushback: How Breakups Can Lead to Personal Growth and Development**: Psychology and self-development book focusing on cognitive reframing and emotional recovery.
+
+---
+
+## Verified Academic Credentials
+- **Master of Computer Applications (MCA)**: Manipur University (Central University), 2023. **7th Position in State** across all affiliated colleges (80.30% Distinction).
+- **Bachelor of Computer Applications (BCA)**: NIELIT Imphal / Manipur University, 2020 (68.38% First Division).
+
+---
+
+## Community & Verification Links
+- **Authorized Digital Sellers (`app-ads.txt`)**: https://banishwor.github.io/app-ads.txt
+- **Wall of Gratitude (Community Supporters)**: https://banishwor.github.io/Wall-of-Gratitude/
+- **Cultural Heritage Blog**: https://baniat.blogspot.com/
+- **Humans & Technology Credits**: https://banishwor.github.io/humans.txt
+- **Security Vulnerability Disclosure**: https://banishwor.github.io/.well-known/security.txt

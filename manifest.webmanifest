@@ -1,0 +1,26 @@
+{
+  "name": "Banishwor Athokpam - Mobile Apps & Developer Hub",
+  "short_name": "Banishwor Apps",
+  "description": "Official developer hub for Banishwor Athokpam. Mobile apps preserving Manipuri cultural heritage and solving everyday problems.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1120",
+  "theme_color": "#2563eb",
+  "categories": ["portfolio", "utilities", "developer"],
+  "icons": [
+    {
+      "src": "assets/manipur_calendar_icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/manipur_calendar_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
