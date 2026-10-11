@@ -1,0 +1,26 @@
+{
+  "name": "Banishwor Athokpam — Mobile Apps & Developer Hub",
+  "short_name": "Banishwor Apps",
+  "description": "Official developer hub for Banishwor Athokpam. High-reliability native Android engineering, cultural informatics, and published author from Thoubal, Manipur.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#0b1120",
+  "theme_color": "#0b1120",
+  "categories": ["portfolio", "utilities", "developer", "books"],
+  "icons": [
+    {
+      "src": "assets/manipur_calendar_icon.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "assets/manipur_calendar_icon.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}

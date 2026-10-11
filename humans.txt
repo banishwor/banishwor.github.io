@@ -23,7 +23,7 @@
     - Pushback: How Breakups Can Lead to Personal Growth and Development
 
 /* THANKS */
-  Mentors & Faculty: Manipur University (MCA Department - 7th State Position)
+  Mentors & Faculty: Manipur University (MCA Department - 7th State Position) & NIELIT Imphal (Akampat - BCA First Division)
   Community: The people of Thoubal and the Kangleipak cultural preservationists
   Open Source: Android Open Source Project, React, Kotlin, Tailwind, and Vite communities
   Supporters: Generous contributors featured on the Wall of Gratitude

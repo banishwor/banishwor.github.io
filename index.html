@@ -25,9 +25,9 @@
     <!-- Open Graph / Facebook -->
     <meta property="og:type" content="website">
     <meta property="og:url" content="https://banishwor.github.io/">
-    <meta property="og:title" content="Banishwor Athokpam | Mobile Apps & Systems Developer">
-    <meta property="og:description" content="Discover mobile applications preserving Manipuri cultural heritage and solving everyday problems. Manipur Calculator, Yek Salai, Manipuri Calendar, and Khutsuman.">
-    <meta property="og:image" content="https://banishwor.github.io/assets/manipur_calendar_screenshot.jpg">
+    <meta property="og:title" content="Banishwor Athokpam | Mobile Apps Developer & Author">
+    <meta property="og:description" content="Official developer portfolio of Banishwor Athokpam. High-reliability native Android engineering (Manipur Calculator, Manipuri Calendar, Yek Salai, Khutsuman) and published literature.">
+    <meta property="og:image" content="https://banishwor.github.io/assets/og_preview.png">
     <meta property="og:image:width" content="1200">
     <meta property="og:image:height" content="630">
     <meta property="og:image:alt" content="Banishwor Athokpam - Mobile Apps & Systems Developer Portfolio">
@@ -39,15 +39,16 @@
     <meta name="twitter:site" content="@banishwor">
     <meta name="twitter:creator" content="@banishwor">
     <meta name="twitter:url" content="https://banishwor.github.io/">
-    <meta name="twitter:title" content="Banishwor Athokpam | Mobile Apps & Systems Developer">
-    <meta name="twitter:description" content="Discover mobile applications preserving Manipuri cultural heritage and solving everyday problems. Manipur Calculator, Yek Salai, Manipuri Calendar, and Khutsuman.">
-    <meta name="twitter:image" content="https://banishwor.github.io/assets/manipur_calendar_screenshot.jpg">
+    <meta name="twitter:title" content="Banishwor Athokpam | Mobile Apps Developer & Author">
+    <meta name="twitter:description" content="Official developer portfolio of Banishwor Athokpam. High-reliability native Android engineering (Manipur Calculator, Manipuri Calendar, Yek Salai, Khutsuman) and published literature.">
+    <meta name="twitter:image" content="https://banishwor.github.io/assets/og_preview.png">
     <meta name="twitter:image:alt" content="Banishwor Athokpam - Mobile Apps & Systems Developer Portfolio">
 
     <!-- Favicon & PWA Icons -->
     <link rel="icon" type="image/png" href="assets/manipur_calendar_icon.png">
     <link rel="apple-touch-icon" href="assets/manipur_calendar_icon.png">
-    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="manifest" href="site.webmanifest">
+    <link rel="alternate manifest" href="manifest.webmanifest">
     <link rel="author" href="humans.txt">
     <link rel="sitemap" type="application/xml" title="Sitemap" href="/sitemap.xml">
 
@@ -64,27 +65,40 @@
           "@type": "Person",
           "@id": "https://banishwor.github.io/#person",
           "name": "Banishwor Athokpam",
-          "alternateName": ["Bani", "Bani Athokpam"],
+          "alternateName": [
+            "Banishwor",
+            "Bani",
+            "Bani Athokpam"
+          ],
           "url": "https://banishwor.github.io/",
-          "jobTitle": "Mobile Software Engineer & Author",
+          "jobTitle": "Mobile Software Engineer & Published Author",
           "description": "Software engineer specializing in offline-first native Android engineering, cultural informatics, and published author from Thoubal, Manipur.",
           "homeLocation": {
             "@type": "Place",
             "name": "Thoubal, Manipur, India"
           },
-          "alumniOf": {
-            "@type": "CollegeOrUniversity",
-            "name": "Manipur University"
-          },
+          "alumniOf": [
+            {
+              "@type": "EducationalOrganization",
+              "name": "Manipur University",
+              "award": "Master of Computer Applications (MCA) — 7th State Rank, 80.30% Distinction (2023)"
+            },
+            {
+              "@type": "EducationalOrganization",
+              "name": "National Institute of Electronics & Information Technology (NIELIT), Imphal, Akampat",
+              "award": "Bachelor of Computer Applications (BCA) — First Division, 68.38% (2020)"
+            }
+          ],
           "sameAs": [
             "https://github.com/banishwor",
             "https://www.linkedin.com/in/banishwor/",
+            "https://x.com/banishwor",
             "https://www.facebook.com/banishwor",
             "https://www.facebook.com/banishwor.athokpam",
             "https://www.instagram.com/banishwor_ath/",
-            "https://x.com/banishwor",
             "https://baniat.blogspot.com/",
-            "https://www.amazon.in/Echoes-Silence-Book-Between-Heartbeats-ebook/dp/B0GT48RW96"
+            "https://www.amazon.in/Echoes-Silence-Book-Between-Heartbeats-ebook/dp/B0GT48RW96",
+            "https://www.amazon.in/Pushback-Breakups-Personal-Growth-Development-ebook/dp/B0BTB1JVVB"
           ]
         },
         {
@@ -92,8 +106,12 @@
           "@id": "https://banishwor.github.io/#website",
           "url": "https://banishwor.github.io/",
           "name": "Banishwor Athokpam | Mobile Apps & Systems Developer",
-          "description": "Official mobile app developer hub for Banishwor Athokpam. Featuring Manipur Calculator, Yek Salai, Manipuri Calendar, and Khutsuman.",
+          "description": "Official mobile app developer hub and published author portfolio for Banishwor Athokpam. Featuring Manipur Calculator, Yek Salai, Manipuri Calendar, and Khutsuman.",
+          "inLanguage": ["en", "mni"],
           "publisher": {
+            "@id": "https://banishwor.github.io/#person"
+          },
+          "author": {
             "@id": "https://banishwor.github.io/#person"
           }
         },
@@ -108,20 +126,10 @@
             "price": "0",
             "priceCurrency": "INR"
           },
-          "description": "Specialized land unit converter (Pari, Lourak, Sangam), Indian gold weight converter, and loan EMI calculator for Manipur."
-        },
-        {
-          "@type": "SoftwareApplication",
-          "@id": "https://banishwor.github.io/#yek-salai",
-          "name": "Yek Salai",
-          "applicationCategory": "LifestyleApplication",
-          "operatingSystem": "Android, iOS",
-          "offers": {
-            "@type": "Offer",
-            "price": "0",
-            "priceCurrency": "INR"
+          "author": {
+            "@id": "https://banishwor.github.io/#person"
           },
-          "description": "Meitei clan lineage explorer and marriage compatibility checker based on sacred customary laws."
+          "description": "Specialized land unit converter (Pari, Lourak, Sangam), Indian gold weight converter, and loan EMI calculator for Manipur built with BigDecimal and offline Room DB."
         },
         {
           "@type": "SoftwareApplication",
@@ -134,7 +142,28 @@
             "price": "0",
             "priceCurrency": "INR"
           },
-          "description": "Comprehensive dual lunar calendar with 200+ Manipuri festivals, Meitei Mayek script, and moon phases."
+          "author": {
+            "@id": "https://banishwor.github.io/#person"
+          },
+          "downloadUrl": "https://play.google.com/store/apps/details?id=com.manipurcalendar",
+          "installUrl": "https://banishwor.github.io/manipuri-calendar-pwa/",
+          "description": "Comprehensive dual lunar calendar with 200+ Manipuri festivals, Meitei Mayek numerals, Tatnaba and Thasi Maikei astrological indicators."
+        },
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://banishwor.github.io/#yek-salai",
+          "name": "Yek Salai",
+          "applicationCategory": "ReferenceApplication",
+          "operatingSystem": "Android, iOS",
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "INR"
+          },
+          "author": {
+            "@id": "https://banishwor.github.io/#person"
+          },
+          "description": "Meitei clan lineage explorer and marriage compatibility checker covering 860+ surnames across the 7 sacred clans based on customary laws."
         },
         {
           "@type": "SoftwareApplication",
@@ -147,7 +176,40 @@
             "price": "0",
             "priceCurrency": "INR"
           },
-          "description": "100% offline daily attendance and Hisab ledger manager for construction site supervisors and daily wage workers."
+          "author": {
+            "@id": "https://banishwor.github.io/#person"
+          },
+          "description": "100% offline daily attendance and Hisab ledger manager for construction site supervisors, petty contractors (Mohoriks), master carpenters, and tradesmen."
+        },
+        {
+          "@type": "Book",
+          "@id": "https://banishwor.github.io/#book-echoes-of-silence",
+          "name": "The Echoes of Silence: Book I — The Silence Between Heartbeats",
+          "author": {
+            "@id": "https://banishwor.github.io/#person"
+          },
+          "isbn": "B0GT48RW96",
+          "bookFormat": "https://schema.org/EBook",
+          "url": "https://www.amazon.in/Echoes-Silence-Book-Between-Heartbeats-ebook/dp/B0GT48RW96",
+          "genre": "Literary Fiction, Coming-of-Age",
+          "datePublished": "2023",
+          "inLanguage": "en",
+          "description": "A novel exploring silent narratives, emotional architecture, and unspoken bonds through the perspective of Bren Atherton."
+        },
+        {
+          "@type": "Book",
+          "@id": "https://banishwor.github.io/#book-pushback",
+          "name": "Pushback: How Breakups Can Lead to Personal Growth and Development",
+          "author": {
+            "@id": "https://banishwor.github.io/#person"
+          },
+          "isbn": "B0BTB1JVVB",
+          "bookFormat": "https://schema.org/EBook",
+          "url": "https://www.amazon.in/Pushback-Breakups-Personal-Growth-Development-ebook/dp/B0BTB1JVVB",
+          "genre": "Self-Help, Personal Transformation, Psychology",
+          "datePublished": "2023",
+          "inLanguage": "en",
+          "description": "A practical guide on emotional sovereignty, cognitive reframing, and turning heartbreak into academic focus and athletic discipline."
         }
       ]
     }
@@ -435,7 +497,7 @@
             <!-- Developer Identity Pill -->
             <div class="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200/80 dark:border-blue-800/80 text-blue-700 dark:text-blue-300 text-xs font-semibold mb-6 shadow-sm">
                 <span class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"></span>
-                <span>Banishwor Athokpam • Mobile & Edge Systems Developer</span>
+                <span>Banishwor Athokpam — Mobile & Edge Systems Developer</span>
             </div>
 
             <h1 class="text-4xl md:text-6xl font-bold mb-4 tracking-tight">Apps for Manipur</h1>
@@ -501,7 +563,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs">
-                        <img src="assets/manipur_cal_screenshot.jpg" alt="Manipur Calculator Screenshot"
+                        <img src="assets/manipur_cal_screenshot.jpg" alt="Manipur Calculator Screenshot" loading="lazy" decoding="async"
                             class="rounded-lg w-full">
                     </div>
                 </div>
@@ -569,7 +631,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs">
-                        <img src="assets/yeksalai_screenshot.jpg" alt="Yek Salai Screenshot" class="rounded-lg w-full">
+                        <img src="assets/yeksalai_screenshot.jpg" alt="Yek Salai Screenshot" class="rounded-lg w-full" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -656,7 +718,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs">
-                        <img src="assets/manipur_calendar_screenshot.jpg" alt="Manipur Calendar Screenshot"
+                        <img src="assets/manipur_calendar_screenshot.jpg" alt="Manipur Calendar Screenshot" loading="lazy" decoding="async"
                             class="rounded-lg w-full">
                     </div>
                 </div>
@@ -729,7 +791,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs shadow-md">
-                        <img src="assets/khutsuman_screenshot.png" alt="Khutsuman Screenshot" class="rounded-lg w-full">
+                        <img src="assets/khutsuman_screenshot.png" alt="Khutsuman Screenshot" class="rounded-lg w-full" loading="lazy" decoding="async">
                     </div>
                 </div>
             </div>
@@ -770,7 +832,7 @@
                 </svg>
                 Engineering Labs & Archive
             </div>
-            <h1 class="text-4xl md:text-6xl font-bold mb-4">Prototypes & Archived Projects</h1>
+            <h2 class="text-4xl md:text-5xl font-bold mb-4">Prototypes & Archived Projects</h2>
             <p class="text-lg md:text-xl text-gray-600 max-w-3xl mx-auto">
                 Explorations in civic technology, on-device machine learning, and creative tools — showcasing technical experiments, real-world constraints, and engineering lessons.
             </p>
@@ -819,7 +881,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs shadow-md">
-                        <img src="assets/leikaifix_screenshot.jpeg" alt="LeikaiFix Screenshot"
+                        <img src="assets/leikaifix_screenshot.jpeg" alt="LeikaiFix Screenshot" loading="lazy" decoding="async"
                             class="rounded-lg w-full object-cover">
                     </div>
                 </div>
@@ -884,7 +946,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs shadow-md">
-                        <img src="assets/florisboard_screenshot.png" alt="FlorisBoard AI Keyboard Screenshot"
+                        <img src="assets/florisboard_screenshot.png" alt="FlorisBoard AI Keyboard Screenshot" loading="lazy" decoding="async"
                             class="rounded-lg w-full object-cover">
                     </div>
                 </div>
@@ -946,7 +1008,7 @@
                 <!-- App Screenshot -->
                 <div class="lg:w-1/2 flex justify-center">
                     <div class="card p-2.5 max-w-xs opacity-90 shadow-md">
-                        <img src="assets/viral_prompts_screenshot.jpg" alt="Viral Prompts Screenshot"
+                        <img src="assets/viral_prompts_screenshot.jpg" alt="Viral Prompts Screenshot" loading="lazy" decoding="async"
                             class="rounded-lg w-full">
                     </div>
                 </div>

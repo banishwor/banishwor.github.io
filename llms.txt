@@ -15,7 +15,7 @@
 
 ---
 
-## Core Mobile & Web Applications
+## Active Production Applications
 
 ### 1. Manipur Calculator
 A specialized dual-purpose financial and regional conversion utility engineered for Manipur.
@@ -23,24 +23,39 @@ A specialized dual-purpose financial and regional conversion utility engineered 
 - **Stack**: Kotlin, Jetpack Compose, BigDecimal (zero floating-point errors), and 100% offline Room database.
 - **Link**: https://banishwor.github.io/#manipur-calculator
 
-### 2. Yek Salai
-Cultural preservation mobile app for the Meitei community in Manipur.
-- **Features**: Complete database of 860+ Meitei surnames categorized across the 7 sacred clans (Salais). Provides instantaneous marriage compatibility verification adhering to sacred customary laws (Yek Tinnaba, Shairuk Tinnaba).
-- **Stack**: React Native, Firebase Remote Config.
-- **Link**: https://banishwor.github.io/#yek-salai
-
-### 3. Manipuri Calendar (Android & Progressive Web App)
+### 2. Manipuri Calendar (Android & Progressive Web App)
 Comprehensive dual-calendar system bridging traditional Meitei chronology with the modern Gregorian calendar.
 - **Features**: 200+ Manipuri festivals, Meitei Mayek numeral display, Tatnaba and Thasi Maikei astrological indicators, moon phases, daily horoscopes, and customizable Android home screen widgets. 100% free and ad-free.
 - **Stack**: Kotlin, Jetpack Compose, React 19, TypeScript, WorkManager.
 - **Android App**: https://play.google.com/store/apps/details?id=com.manipurcalendar
 - **PWA Live**: https://banishwor.github.io/manipuri-calendar-pwa/
 
+### 3. Yek Salai
+Cultural preservation mobile app for the Meitei community in Manipur.
+- **Features**: Complete database of 860+ Meitei surnames categorized across the 7 sacred clans (Salais). Provides instantaneous marriage compatibility verification adhering to sacred customary laws (Yek Tinnaba, Shairuk Tinnaba).
+- **Stack**: React Native, Firebase Remote Config.
+- **Link**: https://banishwor.github.io/#yek-salai
+
 ### 4. Khutsuman (ꯈꯨꯠꯁꯨꯃꯟ)
-Digital wage, attendance, and Hisab ledger manager for construction site supervisors, petty contractors (*Mohoriks*), and tradesmen.
+Digital wage, attendance, and Hisab ledger manager for construction site supervisors, petty contractors (*Mohoriks*), master carpenters, and tradesmen.
 - **Features**: 100% offline attendance tracking (Present, Half-Day, Overtime, Absent), dispute-free itemized settlement calculation, multi-site job grouping, and instant WhatsApp-ready vector PDF report exports.
-- **Status**: Beta • Built with Kotlin, Jetpack Compose, Material Design 3, Encrypted Room Database.
+- **Status**: Beta — Built with Kotlin, Jetpack Compose, Material Design 3, Encrypted Room Database.
 - **Link**: https://banishwor.github.io/#khutsuman
+
+---
+
+## R&D, Experimental & Archived Projects
+
+### 1. LeikaiFix
+Civic grievance redressal and community issue reporting progressive web app.
+- **Features**: Geotagged reporting for local road damage, water supply, and streetlights with club/leikai administrative escalation workflows.
+- **Stack**: React, TypeScript, Geolocation API, Cloudflare Workers.
+
+### 2. On-Device AI Keyboard (FlorisBoard Meitei Mayek IME)
+Native Android IME keyboard layout supporting all 35 characters of the authentic Meitei Mayek script, Cheikhei punctuation, and phonetic sub-character modifiers.
+
+### 3. Viral Prompts Generator
+Open-source curated library containing 50+ optimized prompt templates for LLMs, Claude, and Midjourney with instant variable injection.
 
 ---
 
@@ -52,11 +67,12 @@ Digital wage, attendance, and Hisab ledger manager for construction site supervi
 
 ## Verified Academic Credentials
 - **Master of Computer Applications (MCA)**: Manipur University (Central University), 2023. **7th Position in State** across all affiliated colleges (80.30% Distinction).
-- **Bachelor of Computer Applications (BCA)**: NIELIT Imphal / Manipur University, 2020 (68.38% First Division).
+- **Bachelor of Computer Applications (BCA)**: NIELIT Imphal, Akampat (Manipur University), 2020 (68.38% First Division).
 
 ---
 
 ## Community & Verification Links
+- **Core Mathematical & Cultural Specifications**: See Section 10 in https://banishwor.github.io/llms-full.txt for verified Manipuri land conversion formulas (Pari, Lourak, Sangam), precious metal units (Tola, San), and Yek-Salai kinship verification rules.
 - **Authorized Digital Sellers (`app-ads.txt`)**: https://banishwor.github.io/app-ads.txt
 - **Wall of Gratitude (Community Supporters)**: https://banishwor.github.io/Wall-of-Gratitude/
 - **Cultural Heritage Blog**: https://baniat.blogspot.com/

@@ -35,6 +35,6 @@ Allow: /
 # Master Sitemap
 Sitemap: https://banishwor.github.io/sitemap.xml
 
-# LLM Context Discovery Links (https://llmstxt.org/)
-llms-txt: https://banishwor.github.io/llms.txt
-llms-full: https://banishwor.github.io/llms-full.txt
+# LLM Context Discovery (https://llmstxt.org/)
+# LLMs Summary: https://banishwor.github.io/llms.txt
+# LLMs Full Spec: https://banishwor.github.io/llms-full.txt
